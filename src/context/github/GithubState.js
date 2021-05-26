@@ -82,7 +82,6 @@ const GithubState = (props) => {
   return (
     <GithubContext.Provider
       value={{
-        quotes: "test",
         users: state.users,
         user: state.user,
         repos: state.repos,
