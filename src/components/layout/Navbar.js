@@ -5,7 +5,9 @@ const Navbar = ({ title }) => {
     <div>
       <nav className="navbar bg-primary">
         <h1>
-          <i className="fa fa-github"> </i> {title}
+          <Link to="/">
+            <i className="fa fa-github"> </i> {title}
+          </Link>
         </h1>
         <ul>
           <li>
