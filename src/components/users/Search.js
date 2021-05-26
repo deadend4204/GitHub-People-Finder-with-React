@@ -28,7 +28,6 @@ const Search = () => {
 
   return (
     <div>
-      {githubContext.quotes}
       <form onSubmit={onSubmit} className="form">
         <input
           type="text"
